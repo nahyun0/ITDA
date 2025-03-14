@@ -4,7 +4,7 @@
 #4) FE <-> DB 연결 확인 해본 것 ( id, password 입력시 mySQL 쪽에서 저장이 되는 지) 
 
 import streamlit as st
-from DB_BE import register_user 
+from DB_BE import register_user # DB_BE.py의 
 
 # Streamlit UI
 st.title("Sign Up")
