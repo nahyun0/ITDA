@@ -3,6 +3,7 @@
 
 #4) FE <-> DB 연결 확인 해본 것 ( id, password 입력시 mySQL 쪽에서 저장이 되는 지) 
 #  Streamlit을 사용하여 사용자 인터페이스(UI)를 담당하는 부분 
+
 # pip install streamlit (설치)
 # streamlit run FE_DB.py (실행) 
 
