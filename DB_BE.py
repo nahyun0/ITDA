@@ -1,6 +1,8 @@
 # 3) Connect DB <-> python (BE)
 # pip install mysql-connector-python 
 
+# 데이터베이스 연결 
+
 import streamlit as st
 import mysql.connector
 import hashlib
