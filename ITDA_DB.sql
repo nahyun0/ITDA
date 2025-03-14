@@ -1,3 +1,5 @@
+#아직 작성 중 
+
 CREATE DATABASE itda_db;
 USE itda_db;
 
