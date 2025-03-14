@@ -27,7 +27,7 @@ def create_connection():
 def hash_password(password):
     return hashlib.sha256(password.encode()).hexdigest()
 
-# Register 등록시 데베와 연결 
+# Register 등록시 
 def register_user(id, password):
     conn = create_connection()
     cursor = conn.cursor()
