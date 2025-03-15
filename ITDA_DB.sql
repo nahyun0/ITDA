@@ -28,7 +28,7 @@ CREATE TABLE books (
 # 책 퀴즈 질문 
 # 퀴즈가 a,b,c,d 중 고르는 경우 
 # 책 하나에 퀴즈 질문이 3-5개라 가정 하면 bookid는 동일하되 quesrionid는 다르다. 1:N 
-# 복합 키 사용 ( bookid, questionid) 
+# 복합 키 사용 ( bookid, questionid) - 이유 : bookid = 1이고 qussionid = 1,2,3,4 경우, bookid = 2이고 qussionid = 1,2,3,4 로 하기 위해서) 
 CREATE TABLE books_questions (
 	bookid INT,  -- 책과 연결 (FK)
     questionid INT, 
